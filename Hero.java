@@ -72,4 +72,8 @@ abstract public class Hero{
         }
     }
 
+    public static void specialPower(){
+
+    }
+
 }

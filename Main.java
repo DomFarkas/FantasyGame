@@ -2,17 +2,14 @@ public class Main{
     public static void main(String[] args) {
         //Objects
         Wizard wizard1 = new Wizard("Greg", 8, 13, 25, new Weapon("mythril", 15), 25);
-        Warrior warrior1 = new Warrior("Greta", 15, 20, 10, new Weapon("steel", 10), 15);
+        Warrior warrior1 = new Warrior("Greta", 2, 20, 10, new Weapon("steel", 10), 15);
         Weapon weapon1 = new Weapon("mythril", 10);
-        Monster monster1 = new Monster(10, 15);
+        Monster monster1 = new Monster(2, 20);
         Dice dice1 = new Dice(10);
         Fight fight1 = new Fight();
         Party party1 = new Party("AlphaGang");
 
         //Running Program
-        Party.joinParty(party1, wizard1);
-        Party.joinParty(party1, warrior1);
-        System.out.println(party1.heroes);
 
 
         /*
@@ -21,9 +18,11 @@ public class Main{
         Hero.addWeaponBonus(warrior1);
         Hero.printHeroStats(warrior1);
         Hero.printHeroStats(wizard1);
+        */
+        wizard1.addWeaponBonus(wizard1);
         Fight.fightsOn(warrior1, monster1);
 
-
+        /*
         System.out.println(Dice.randominator(dice1));
         Hero.printHeroStats(warrior1);
 
