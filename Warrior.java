@@ -21,8 +21,9 @@ class Warrior extends Hero{
 
     //Methods
 
-    public static void berserkMode(Warrior myWarrior){
+    public static void specialPower(Warrior myWarrior){
         myWarrior.setStrength(myWarrior.getStrength() * 2);
+        myWarrior.setEndurance(myWarrior.getEndurance() - 5);
         System.out.println(myWarrior.name + " has entered Berserk Mode! May God save our souls!");
     }
 
