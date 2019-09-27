@@ -9,7 +9,7 @@ abstract public class Hero{
     Weapon weapon;
 
     //Constructor
-    public Hero(String name, int strength, int carry, int health, int xp, Weapon weapon){
+    public Hero(String name, int strength, int carry; int health, int xp, Weapon weapon){
         this.name = name;
         this.strength = strength;
         this.carry = carry;
@@ -53,15 +53,6 @@ abstract public class Hero{
     public int getXp(){
         return xp;
     }
-
-    public void setCarry(int carry){
-        this.carry = carry;
-    }
-
-    public int getCarry(){
-        return carry;
-    }
-
 
     //Methods
 

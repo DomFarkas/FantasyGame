@@ -1,0 +1,22 @@
+/**
+ *
+ * Description
+ *
+ * @version 1.0 from 2019. 09. 26.
+ * @author 
+ */
+
+public class Item {
+  
+  // start attributes
+  private int weight;
+  // end attributes
+  
+  // start methods
+  public int getWeight() {
+    return weight;
+  }
+
+  // end methods
+} // end of Item
+

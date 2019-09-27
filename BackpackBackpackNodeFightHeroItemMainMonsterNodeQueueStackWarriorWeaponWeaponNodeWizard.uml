@@ -1,0 +1,191 @@
+﻿[Files]
+File0=C:\Users\farka\OneDrive\Dokumentumok\Java\Test2\Backpack.java
+File1=C:\Users\farka\OneDrive\Dokumentumok\Java\Test2\BackpackNode.java
+File2=C:\Users\farka\OneDrive\Dokumentumok\Java\Test2\Fight.java
+File3=C:\Users\farka\OneDrive\Dokumentumok\Java\Test2\Hero.java
+File4=C:\Users\farka\OneDrive\Dokumentumok\Java\Test2\Item.java
+File5=C:\Users\farka\OneDrive\Dokumentumok\Java\Test2\Main.java
+File6=C:\Users\farka\OneDrive\Dokumentumok\Java\Test2\Monster.java
+File7=C:\Users\farka\OneDrive\Dokumentumok\Java\Test2\Queue.java
+File8=C:\Users\farka\OneDrive\Dokumentumok\Java\Test2\Stack.java
+File9=C:\Users\farka\OneDrive\Dokumentumok\Java\Test2\Warrior.java
+File10=C:\Users\farka\OneDrive\Dokumentumok\Java\Test2\Weapon.java
+File11=C:\Users\farka\OneDrive\Dokumentumok\Java\Test2\WeaponNode.java
+File12=C:\Users\farka\OneDrive\Dokumentumok\Java\Test2\Wizard.java
+
+[Box:  - Backpack]
+X=119
+Y=49
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=12
+FontName=Segoe UI
+
+[Box:  - BackpackNode]
+X=80
+Y=416
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=12
+FontName=Segoe UI
+
+[Box:  - Fight]
+X=844
+Y=689
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=12
+FontName=Segoe UI
+
+[Box:  - Hero]
+X=1182
+Y=689
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=12
+FontName=Segoe UI
+
+[Box:  - Item]
+X=331
+Y=689
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=12
+FontName=Segoe UI
+
+[Box:  - Main]
+X=483
+Y=80
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=12
+FontName=Segoe UI
+
+[Box:  - Monster]
+X=533
+Y=416
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=12
+FontName=Segoe UI
+
+[Box:  - Node]
+X=1310
+Y=416
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=12
+FontName=Segoe UI
+
+[Box:  - Queue]
+X=1373
+Y=80
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=12
+FontName=Segoe UI
+
+[Box:  - Stack]
+X=917
+Y=80
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=12
+FontName=Segoe UI
+
+[Box:  - Warrior]
+X=947
+Y=1235
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=12
+FontName=Segoe UI
+
+[Box:  - Weapon]
+X=320
+Y=1235
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=12
+FontName=Segoe UI
+
+[Box:  - WeaponNode]
+X=873
+Y=416
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=12
+FontName=Segoe UI
+
+[Box:  - Wizard]
+X=1655
+Y=1235
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=12
+FontName=Segoe UI
+
+[Diagram]
+comments=0
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+ShowConnections=0
+Fontname=Segoe UI
+Fontsize=12
+ShowObjectDiagram=0
+
+[Connections]
+V0=Backpack#BackpackNode#AssociationDirected##0#0#0
+V1=BackpackNode#BackpackNode#AssociationDirected##1#0#0
+V2=BackpackNode#Item#AssociationDirected##0#0#0
+V3=Hero#Weapon#AssociationDirected##0#0#0
+V4=Node#Node#AssociationDirected##1#0#0
+V5=Node#Hero#AssociationDirected##0#0#0
+V6=Queue#Node#AssociationDirected##0#0#0
+V7=Stack#WeaponNode#AssociationDirected##0#0#0
+V8=Warrior#Hero#Inheritends##0#0#0
+V9=Weapon#Item#Inheritends##0#0#0
+V10=WeaponNode#Weapon#AssociationDirected##0#0#0
+V11=Wizard#Hero#Inheritends##0#0#0
+
+[Interactive]
+I0=
+
+[Window]
+Left=78
+Top=78
+Width=1350
+Height=376
+

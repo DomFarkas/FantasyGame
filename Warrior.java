@@ -5,8 +5,8 @@ class Warrior extends Hero{
 
 
     //Constructor
-    public Warrior(String name, int strength, int health, int xp, Weapon weapon, int endurance){
-        super(name, strength, health, xp, weapon);
+    public Warrior(String name, int strength, int carry, int health, int xp, Weapon weapon, int endurance){
+        super(name, strength, carry, health, xp, weapon);
         this.endurance = endurance;
     }
 

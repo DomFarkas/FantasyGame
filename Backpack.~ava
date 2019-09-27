@@ -1,0 +1,52 @@
+/**
+ *
+ * Description
+ *
+ * @version 1.0 from 2019. 09. 26.
+ * @author 
+ */
+
+public class Backpack {
+
+  // Anfang Attribute
+  // start attributes
+  private BackpackNode head;
+  // end attributes
+  // Ende Attribute
+
+  // Anfang Methoden
+  // start methods
+  public BackpackNode getHead() {
+    return head;
+  }
+
+  public void setHead(BackpackNode headNew) {
+    head = headNew;
+  }
+
+  public void push(Item myItem) {
+    BackpackNode newBackpackNode = new BackpackNode();
+    newBackpackNode.setContentObject(myItem);
+    BackpackNode x = this.head;
+    this.head = newBackpackNode;
+    this.head.setNextNode(x);
+  }
+
+  public Item pop() {
+    Item i = this.head.getContentObject();
+    this.head = this.head.getNextNode();
+    return i;
+  }
+
+  public boolean isEmpty(){
+    if(this.head == null){
+      return true;
+    } else {
+      return false;
+    } // end of if-else
+   }
+  // end methods
+
+  // Ende Methoden
+} // end of Backpack
+

@@ -22,5 +22,4 @@ public class Node {
     objectContent = objectContentNew;
   }
 
-  // Ende Methoden
-} // end of Node
+}

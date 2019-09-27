@@ -4,13 +4,13 @@ class Wizard extends Hero{
     int mana;
 
     //Constructor
-    public Wizard(String name, int strength, int health, int xp, Weapon weapon, int magic){
-        super(name, strength, health, xp, weapon);
+    public Wizard(String name, int strength, int carry, int health, int xp, Weapon weapon, int mana){
+        super(name, strength, carry, health, xp, weapon);
         this.mana = mana;
     }
 
     //get-/set-Methods
-    public void setMana(int xp){
+    public void setMana(int mana){
         this.mana = mana;
     }
 

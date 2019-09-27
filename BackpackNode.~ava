@@ -1,0 +1,35 @@
+/**
+ *
+ * Description
+ *
+ * @version 1.0 from 2019. 09. 26.
+ * @author 
+ */
+
+public class BackpackNode {
+
+  // Anfang Attribute
+  private BackpackNode nextNode;
+  private Item ContentObject;
+  // Ende Attribute
+
+  // Anfang Methoden
+  public BackpackNode getNextNode() {
+    return nextNode;
+  }
+
+  public Weapon getContentObject() {
+    return ContentObject;
+  }
+
+  public void setContentObject(Weapon myContentObject) {
+    ContentObject = myContentObject;
+  }
+
+  public void setNextNode(BackpackNodeNode myNextNode) {
+    nextNode = myNextNode;
+  }
+
+  // Ende Methoden
+} // end of BackpackNode
+
