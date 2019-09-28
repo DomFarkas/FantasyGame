@@ -1,10 +1,8 @@
-/**
- *
- * Description
- *
- * @version 1.0 from 2019. 09. 26.
- * @author
- */
+/*
+THIS IS A CLASS FOR ALL THE ITEMS THAT CAN BE
+PUT INTO A BACKPACK
+I.E. FOOD, WEAPONS
+*/
 
 public abstract class Item {
 
@@ -14,6 +12,10 @@ public abstract class Item {
 
   public Item(int weight){
       this.weight = weight;
+  }
+
+  public Item(){
+
   }
 
   // start methods

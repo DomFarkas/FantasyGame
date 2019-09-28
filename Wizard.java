@@ -30,4 +30,21 @@ class Wizard extends Hero{
         myWizard.setMana(myWizard.getMana() - 3);
     }
 
+    public void specialPower(Monster m){
+        m.setHealth(m.getHealth() - 15);
+        this.setHealth(this.getHealth() - 5);
+        this.setMana(this.getMana() - 2);
+        System.out.println("You call upon the Forgotten Gods!" + "\n" + "You feel your body burning. Suddenly your foe is struck by an explosion!");
+    }
+
+    public void eatFood(Wizard myWizard ,Food myFood){
+        super.eatFood(myWizard, myFood);
+        myWizard.setMana(myWizard.getMana() + myFood.getManaFactor());
+    }
+
+
+    public void putItemInbag(Backpack myBackpack, Item myItem){
+        super.putItemInBag(myBackpack, myItem);
+    }
+
 }

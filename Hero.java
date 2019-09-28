@@ -83,8 +83,17 @@ abstract public class Hero{
         }
     }
 
-    public static void specialPower(){
 
+    public void specialPower(Monster m){
+
+    }
+
+    public void eatFood(Hero myHero, Food myFood){
+        myHero.setHealth(myHero.getHealth() + myFood.getHealingFactor());
+    }
+
+    public void putItemInBag(Backpack myBackpack, Item myItem){
+        myBackpack.push(myItem);
     }
 
 }
