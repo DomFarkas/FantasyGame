@@ -1,6 +1,6 @@
 /*
 THIS IS THE MAIN CLASS, THIS OPENS FIRST
-WHEN THE CODE IS RUNNING.    
+WHEN THE CODE IS RUNNING.
 */
 
 import java.util.Scanner;
@@ -31,7 +31,7 @@ class Main{
                         break;
                     } else if(answer == 2){
                         c.player.putItemInBag(c.heroBackpack, a);
-                        System.out.println("You choose to put your loot away.");
+                        System.out.println("You choose to put your loot away."); //This actually doesn't work yet... didn't have time to finish
                         break;
                     }
                 }
@@ -48,7 +48,7 @@ class Main{
                         break;
                     } else if(answer == 2){
                         c.player.putItemInBag(c.heroBackpack, mm);
-                        System.out.println("You choose to put your loot away.");
+                        System.out.println("You choose to put your loot away.");  //This actually doesn't work yet...
                         break;
                     }
                 }
