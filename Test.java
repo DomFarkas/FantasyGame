@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 class Test{
 
     public static void main(String[] args) {
@@ -8,6 +10,7 @@ class Test{
         Warrior w3 = new Warrior("Greg", 0, 0, 0, 0, heroWeapon, 0);
         Warrior w4 = new Warrior("Bob", 0, 0, 0, 0, heroWeapon, 0);
         Warrior w5 = new Warrior("Greg", 0, 0, 0, 0, heroWeapon, 0);
+        Warrior w6 = new Warrior("Bob", 0, 0, 0, 0, heroWeapon, 0);
 
         l.append(w1);
         l.append(w2);
@@ -20,6 +23,4 @@ class Test{
 
 
     }
-
-
 }

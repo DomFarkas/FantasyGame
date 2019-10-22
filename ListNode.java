@@ -3,17 +3,17 @@
  * Beschreibung
  *
  * @version 1.0 vom 21.10.2019
- * @author 
+ * @author
  */
 
 public class ListNode {
-  
+
   // Anfang Attribute
   private ListNode next;
   private ListNode previous;
   private Hero content;
   // Ende Attribute
-  
+
   public ListNode(Hero content) {
     this.content = content;
     this.next = null;
@@ -26,6 +26,10 @@ public class ListNode {
 
   public Hero getContent() {
     return content;
+  }
+
+  public void setContent(Hero myHero){
+      content = myHero;
   }
 
   public void setNext(ListNode nextNeu) {
@@ -42,4 +46,3 @@ public class ListNode {
 
   // Ende Methoden
 } // end of ListNode
-

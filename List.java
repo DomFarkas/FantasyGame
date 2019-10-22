@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+
+
 /**
  *
  * Beschreibung
@@ -85,6 +88,8 @@ public class List {
           return false;
       }
   }
+
+
 
   public ListNode getFirst() {
     return first;
