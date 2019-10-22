@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+import java.util.Scanner;
 
 
 /**
@@ -75,14 +75,21 @@ public class List {
   }
 
   public void find(){
-    while(this.checkName() != true) {
+    Scanner nameScanner = new Scanner(System.in);
+    System.out.println("Who are you looking for?");
+    String nameAnswer = nameScanner.nextLine();
+    while(this.checkName(nameAnswer) != true) {
         this.setCurrent(this.current.getNext());
+        if(this.current == this.last){
+            System.out.println("Sorry, they're not here!");
+            break;
+        }
     }
     System.out.println("Found Him!");
   }
 
-  private boolean checkName(){
-      if (this.current.getContent().getName().compareTo("Bob") == 0) {
+  private boolean checkName(String name){
+      if (this.current.getContent().getName().compareTo(name) == 0) {
           return true;
       } else {
           return false;
